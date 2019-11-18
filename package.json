@@ -1,0 +1,17 @@
+{
+  "name": "sangitaportfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "homepage": "https://sangita05.github.io/SangitaPortfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist.css. --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "nikki",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0"
+  }
+}
